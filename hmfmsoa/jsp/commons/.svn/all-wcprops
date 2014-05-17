@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons
+END
+taglibs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/taglibs.jsp
+END
+meta.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/meta.jsp
+END
+printpage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/printpage.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/error.jsp
+END
+changePwdOK.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/changePwdOK.jsp
+END
+exp_http.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/exp_http.jsp
+END
+includeError.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/includeError.jsp
+END
+selectSect.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/selectSect.jsp
+END
+exception.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/exception.jsp
+END
+page500.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/page500.jsp
+END
+page403.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/page403.jsp
+END
+page404.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/page404.jsp
+END
+pageok.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/pageok.jsp
+END
+downloadFile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/downloadFile.jsp
+END
+tag.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/jsp/commons/tag.jsp
+END

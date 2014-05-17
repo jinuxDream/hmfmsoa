@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 0.4//EN" "http://www.getahead.ltd.uk/dwr/dwr.dtd">
+<dwr>
+	<allow>
+		<create creator="new" javascript="AjaxDos">
+			<param name="class" value="termite.biz.ordermng.AjaxDos"/>
+			<include method="rsSectInfo"/>
+			<include method="rsposInfo"/>
+			<include method="rsmedicineInfo"/>
+			<include method="rsRoadInfo"/>
+		</create>
+	</allow>
+</dwr>

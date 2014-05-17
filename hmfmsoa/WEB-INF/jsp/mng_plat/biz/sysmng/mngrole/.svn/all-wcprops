@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngrole
+END
+allocate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngrole/allocate.jsp
+END
+delrole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngrole/delrole.jsp
+END
+editrole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngrole/editrole.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngrole/index.jsp
+END
+addrole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngrole/addrole.jsp
+END
+getrole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngrole/getrole.jsp
+END

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+  <global-exceptions>
+  </global-exceptions>
+  <global-forwards>
+  </global-forwards>
+  <action-mappings>
+  
+  	<action path="/hmfms/biz/commons/fileuploadcom/fileUpload" scope="request" type="hmfms.biz.commons.fileuploadcom.FileUploadComAction">
+		<forward name="success" path="/WEB-INF/jsp/hmfms/biz/commons/fileuploadcom/fileUpload.jsp"/>
+	</action>
+	<action path="/hmfms/biz/commons/fileuploadcom/fileUploadDown" name="FileUploadComForm" scope="request" type="hmfms.biz.commons.fileuploadcom.FileUploadComAction">
+		<forward name="success" path="/WEB-INF/jsp/hmfms/biz/commons/fileuploadcom/fileUploadDown.jsp"/>
+		<forward name="fail"    path="/WEB-INF/jsp/hmfms/biz/commons/fileuploadcom/fileUploadError.jsp"/>
+	</action>
+  </action-mappings>
+</struts-config>

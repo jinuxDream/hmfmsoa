@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld/struts-logic.tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld/c.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld/struts-tiles.tld
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld/struts-nested.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld/fmt.tld
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld/struts-html.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld/struts-bean.tld
+END
+hmfms.tld
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/tld/hmfms.tld
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngmenu
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngmenu/index.jsp
+END
+delmenu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngmenu/delmenu.jsp
+END
+editmenu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngmenu/editmenu.jsp
+END
+addmenu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngmenu/addmenu.jsp
+END

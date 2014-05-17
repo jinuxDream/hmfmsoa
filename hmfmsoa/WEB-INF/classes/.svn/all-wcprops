@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/hmfmstest/svn/hmfmsoa/!svn/ver/20/trunk/04code/hmfmsoa/WEB-INF/src
+END
+operlog.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/operlog.properties
+END
+hmfms.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms.properties
+END
+buttonname.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/buttonname.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/log4j.properties
+END
+dbinfo.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/dbinfo.properties
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/application.properties
+END

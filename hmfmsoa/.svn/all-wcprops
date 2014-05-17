@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/hmfmstest/svn/hmfmsoa/!svn/ver/20/trunk/04code/hmfmsoa
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/.project
+END
+.tomcatplugin
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/.tomcatplugin
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/.cvsignore
+END

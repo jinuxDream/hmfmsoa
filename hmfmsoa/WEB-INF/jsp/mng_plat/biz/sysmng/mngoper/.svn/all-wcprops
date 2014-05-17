@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngoper
+END
+getoper.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngoper/getoper.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngoper/index.jsp
+END
+editoper.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngoper/editoper.jsp
+END
+getdept.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngoper/getdept.jsp
+END
+addoper.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngoper/addoper.jsp
+END
+printoper.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mngoper/printoper.jsp
+END

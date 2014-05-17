@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/sectinfoquery
+END
+querySect.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/sectinfoquery/querySect.jsp
+END
+getHouList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/sectinfoquery/getHouList.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/sectinfoquery/index.jsp
+END
+getUnitList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/sectinfoquery/getUnitList.jsp
+END
+gethouDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/sectinfoquery/gethouDetail.jsp
+END
+getsectDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/sectinfoquery/getsectDetail.jsp
+END
+getunitDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/sectinfoquery/getunitDetail.jsp
+END

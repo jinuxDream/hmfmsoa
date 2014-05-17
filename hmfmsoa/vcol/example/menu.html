@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html  >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+<title>accordionMutil</title>
+
+<link rel="stylesheet" type="text/css" href="../style/web-ui.css" />
+<link rel="stylesheet" type="text/css" href="../style/your-custom.css" />
+<link rel="stylesheet" type="text/css" href="../style/skin-tree-01.css" />
+<script type="text/javascript" src="../js/jquery-1.7.js"></script>
+<script type="text/javascript" src="../js/web-ui.js"></script>
+<script type="text/javascript">
+ $(document).ready(function(){  
+ 			//1将html数据格式化为AccordionMuti的效果
+    	$("#zcsmenu").AccordionMuti({target:"mainframe"});
+    	$('body').addClass("menucss");
+    	var tree1=$('#menu_tree');
+			tree1.webTree({target:'mainframe',collapsed:true,expandOne:true,enableIcon:true,enable_selbtn:false,enable_hitbtn:false,
+				name_map:{name:"menu_name"},
+				icons:{open:'branch-o2',closed:'branch-c2'}});// 	 
+			tree1.loadNode({url:"./example_menu.json", isfull:true}); 
+	 
+
+  				
+	});
+	</script>
+  </head>
+  <body >
+  	<table>
+<tr>
+	<td>
+		<span id="thisTime2"></span>
+  	 <form name="form1" id="form1">
+  	 	
+  							   	<div  style="width:187px"> 
+  							   		<ul id="menu_tree"  >
+  							   		</ul> 
+  							  	</div> 	 		
+	</form>
+</td>
+</tr>
+</table>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.menu-all{width:185px; height:auto; line-height:26px; font-size:12px; color:#FFF; font-family:tahoma; overflow:hidden;  margin-top:1px; margin-left:8px;}
+.menu-all *{margin:0; padding:0; cursor:pointer; margin-bottom:1px;}
+
+
+.menu-h2{width:185px; height:26px; color:#FFF; background:#464787 url('../images/menu/icon_normal.gif') no-repeat 3px 9px; padding-left:20px; border:1px #325568 solid; font-size:12px;font-weight: normal;}
+.menu-h2-hover{ background-color:#F37A03;}
+
+
+.menu-dl-dt{width:185px; height:26px; border:1px #325568 solid; padding-left:30px; background:#2F8ECC url('../images/menu/icon_normal.gif') no-repeat 12px 9px;}
+.menu-dl-dt-hover{background-color:#F37A03;}
+
+
+.menu-dl-dd-p{width:185px; height:26px; padding-left:30px; background-color:#D2E6F6;}
+.menu-dl-dd-p-hover{width:185px; background-color:#FFF6E7; border:1px solid #DE7E20; border-style:outset}
+.menu-dl-dd-p a{color:#000; text-decoration: none;}
+
+.icon-current{ background-image:url('../images/menu/icon_current.gif');}

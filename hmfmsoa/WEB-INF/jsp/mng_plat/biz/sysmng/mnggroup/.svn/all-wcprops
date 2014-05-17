@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mnggroup
+END
+allocate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mnggroup/allocate.jsp
+END
+addgroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mnggroup/addgroup.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mnggroup/index.jsp
+END
+getgroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mnggroup/getgroup.jsp
+END
+delgroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mnggroup/delgroup.jsp
+END
+editgroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/sysmng/mnggroup/editgroup.jsp
+END

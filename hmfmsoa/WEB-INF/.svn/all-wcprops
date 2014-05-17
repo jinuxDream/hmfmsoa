@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/hmfmstest/svn/hmfmsoa/!svn/ver/20/trunk/04code/hmfmsoa/WEB-INF
+END
+dwr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/dwr.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/hmfmstest/svn/hmfmsoa/!svn/ver/11/trunk/04code/hmfmsoa/WEB-INF/web.xml
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/.cvsignore
+END

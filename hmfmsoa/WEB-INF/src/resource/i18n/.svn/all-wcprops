@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/resource/i18n
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/resource/i18n/messages.properties
+END
+messages_zh_CN.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/resource/i18n/messages_zh_CN.properties
+END
+biz_errors.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/resource/i18n/biz_errors.properties
+END
+biz_errors_zh_CN.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/resource/i18n/biz_errors_zh_CN.properties
+END

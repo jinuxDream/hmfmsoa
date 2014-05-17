@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/hmfmstest/svn/hmfmsoa/!svn/ver/20/trunk/04code/hmfmsoa/WEB-INF/hmfmscfg
+END
+struts-config-commons.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/hmfmstest/svn/hmfmsoa/!svn/ver/11/trunk/04code/hmfmsoa/WEB-INF/hmfmscfg/struts-config-commons.xml
+END
+struts-config-sysmng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/hmfmstest/svn/hmfmsoa/!svn/ver/20/trunk/04code/hmfmsoa/WEB-INF/hmfmscfg/struts-config-sysmng.xml
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/hmfmscfg/struts-config.xml
+END

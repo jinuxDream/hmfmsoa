@@ -1,0 +1,181 @@
+body {
+ font-family: "宋体", "Arial", "Times New Roman";
+ font-size: 14px;
+ line-height: normal;
+ background-repeat:repeat;
+ background-attachment:fixed;
+ scrollbar-base-color: color;
+ scrollbar-track-color: #ffffff;
+ scrollbar-face-color: #999999;
+ scrollbar-highlight-color: #ffffff;
+ scrollbar-3dlight-color: #ffffff;
+ scrollbar-darkshadow-color: #ffffff;
+ scrollbar-shadow-color: #E9EDF3;
+ scrollbar-arrow-color: #476C9A;
+
+ }
+ TABLE { border-collapse:collapse; font-size:12px; font-family: "宋体", "System"; clip:rect(   ); }
+ table.rowwindthout{width: 1050px;}
+ 
+ /*横向打印表格样式*/
+table.rowwidth {width: 1030px;}
+/*纵向打印表格样式*/
+table.colwidth {width: 645px;}
+
+table.tjcolwidth {width: 600px;}
+
+table.overprint {width: 620px;}
+
+.bigbold{margin-top:0.6cm;margin-bottom:0.2cm;font-size:18px;font-family:tahoma;font-weight:bold;line-height:40px}
+.normaltitle{font-size:11pt;font-family:tahoma;text-align:center;font-weight:bold;line-height:28px;}
+
+/*分摊清册*/
+.bigbolds{margin-top:0.6cm;margin-bottom:0.2cm;font-size:18px;font-family:tahoma;font-weight:bold;line-height:30px}
+ 
+ /*表头导航条*/
+.navigationCss{font-size:14px;font-family:tahoma;font-weight:bold}
+
+.navig{font-size:13px;font-family: "宋体", "Arial", "Times New Roman";}
+
+ /*首标题*/
+.TopTitle{text-align:center;mso-bidi-font-weight:normal;font-size:22.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"; font-weight:bold}
+
+.TopTitle2{text-align:center;mso-bidi-font-weight:normal;font-size:21.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";font-weight:bold}
+ /*首标题*/
+.TopTitle20{text-align:center;mso-bidi-font-weight:normal;font-size:18.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"; font-weight:bold}
+
+ /*首标题*/
+.TopTitleA{text-align:center;mso-bidi-font-weight:normal;letter-spacing:20px;font-size:18.0pt;font-family:"宋体";mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"; font-weight:bold}
+
+/*副标题*/
+.fubold{margin-top:0.5cm;margin-bottom:0.2cm;font-size:16px;font-family:tahoma;font-weight:bold;line-height:28px}
+
+/*文本标题*/
+.TextTitle{		text-indent:32.0pt;mso-char-indent-count:2.0;line-height:29.0pt;mso-line-height-rule:exactly;font-size:16.0pt;font-family:黑体}
+
+/*文本标题2*/
+.TextTitle2{		text-indent:32.0pt;mso-char-indent-count:2.0;line-height:29.0pt;mso-line-height-rule:exactly;font-size:15.0pt;font-family:黑体}
+
+/*票据金额*/
+.TextAmt{		line-height:29.0pt;mso-line-height-rule:exactly;font-size:10.0pt;font-weight:bold}
+
+ /*段首行 */
+.TopText{		margin-top:6;	margin-bottom:6;	text-align:left;	font-size:16pt;	font-family:"仿宋_GB2312"; line-height:200%}
+ 
+ /*首行不缩进*/
+.TopText12{	margin-top:6;	margin-bottom:6;	text-align:left;	font-size:12pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:100%  }
+
+ /*首行不缩进*/
+.TopText11{	text-align:justify;text-justify:inter-ideograph; margin-top:6;	margin-bottom:6;	text-align:left;	font-size:11pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:130%  }
+
+ /*首行不缩进*/
+.TopText13{	text-align:justify;text-justify:inter-ideograph; margin-top:6;	margin-bottom:6;	text-align:left;	font-size:13pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:100%  }
+
+ /*首行不缩进*/
+.TopText2{	margin-top:6;	margin-bottom:6;	text-align:left;	font-size:2pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:100%  }
+
+ /*首行不缩进*/
+.TopText8{	margin-top:6;	margin-bottom:6;	text-align:left;	font-size:9pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:100%  }
+
+ /*首行不缩进*/
+.TopTextA{	margin-top:6;	margin-bottom:6;	text-align:left;	font-size:12pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:150%  }
+
+ /*首行不缩进*/
+.TopText14{	margin-top:6;	margin-bottom:6;	text-align:left;	font-size:14pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:150%  }
+
+ /*首行缩进*/
+.TextIndent{  text-align:justify;text-justify:inter-ideograph;	margin-top:6;	margin-bottom:6;	font-size:16pt;	font-family:"仿宋_GB2312";text-indent:40; line-height:200%    }
+
+.TextIndent2{  text-align:justify;text-justify:inter-ideograph;	margin-top:6;	margin-bottom:6;	font-size:16pt;	font-family:"仿宋_GB2312";text-indent:40; line-height:150%    }
+ /*首行不缩进*/
+.TextIndentNo{  margin-top:6;	margin-bottom:6;	font-size:16pt;	font-family:"仿宋_GB2312";line-height:200%    }
+
+ /*首行缩进*/
+.TextIndentA{	margin-top:6;	margin-bottom:6;	text-align:left; font-size:16pt;	font-family:"仿宋_GB2312";text-indent:40; line-height:150% }
+
+ /*首行缩进*/
+.TextIndent14{	margin-top:6;	margin-bottom:6;	text-align:left;	font-size:14pt;	font-family:"宋体";text-indent:40; line-height:200%    }
+
+ /*首行缩进*/
+.TextIndent13{	text-align:justify;text-justify:inter-ideograph; margin-top:6;	margin-bottom:6;	text-align:left;	font-size:13pt;	font-family: "宋体", "Arial", "Times New Roman"; text-indent:40;line-height:150%  }
+
+ /*首行缩进*/
+.TextIndent12{	margin-top:6;	margin-bottom:6;	text-align:left;	font-size:12pt;	font-family: "宋体", "Arial", "Times New Roman"; text-indent:40;line-height:150%  }
+
+ /*首行缩进*/
+.TextIndent11{	text-align:justify;text-justify:inter-ideograph; margin-top:6;	margin-bottom:6;	text-align:left;	font-size:11pt;	font-family: "宋体", "Arial", "Times New Roman"; text-indent:40;line-height:140%  }
+
+/*落款行 */
+.EndText{		margin-top:6;	margin-bottom:6;	text-align:right;	font-size:16pt; font-family:"仿宋_GB2312"; margin-right:60; line-height:200%}
+
+/*落款行 */
+.EndTextA{		margin-top:6;	margin-bottom:6;	text-align:right;   font-size:16pt; font-family:"仿宋_GB2312"; margin-right:60; line-height:150%}
+
+ /*落款行 */
+.EndTextt12{	margin-top:6;	margin-bottom:6;	text-align:right;	font-size:12pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:180%}
+
+ /*落款行 */
+.EndTextt13{	margin-top:6;	margin-bottom:6;	text-align:right;	font-size:13pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:180%}
+
+ /*落款行 */
+.EndTextt11{	margin-top:6;	margin-bottom:6;	text-align:right;	font-size:11pt;	font-family: "宋体", "Arial", "Times New Roman";line-height:130%}
+
+/*落款行 */
+.EndText14{		margin-top:6;	margin-bottom:6;	text-align:right;   font-size:14pt; font-family:"宋体"; line-height:150%}
+
+ /* 条形码行 */
+.BarCode{margin-top:0cm;margin-bottom:0cm;	text-align:justify;	font-size:10.5pt;font-family:'宋体', 'Arial', 'Times New Roman';   }
+
+/*报表打印清册*/
+.ptlist{margin-top:0.19cm;margin-bottom:0.19cm;font-size:9pt;line-height:20px; }
+
+/*报表打印清册粗体*/
+.ptlistb{margin-top:0.19cm;margin-bottom:0.19cm;font-size: 12px;line-height:22px; font-weight:bold}
+
+/*报表打印清册粗体*/
+.ptlistb2{margin-top:0.19cm;margin-bottom:0.19cm;font-size: 18px;line-height:22px; font-weight:bold;font-family:'宋体', 'Arial', 'Times New Roman';}
+
+/*报表打印清册粗体-分组汇总黑体*/
+.ptlistgroup{margin-top:0.19cm;margin-bottom:0.19cm;font-size: 12px;line-height:28px; font-weight:bold}
+
+/*决算分摊清册粗体*/
+.ptlistbapp{margin-top:0.19cm;margin-bottom:0.19cm;font-size: 12px;line-height:18px; font-weight:bold}
+
+.ptfont14{font-size:14px;font-family:宋体;line-height:25px;}
+
+.ptfont10{font-size:10px;font-family:宋体;line-height:15px;}
+
+.overptfont{font-size:15px;font-family:宋体;line-height:25px;}
+
+/*缩进*/
+.ptfont20{text-indent:30;font-size:14px;font-family:宋体;line-height:25px;}
+
+
+/*去边框颜色*/
+.ptfontno{font-size:14px;font-family:宋体;line-height:25px;border:2px solid #000000;border-top-color:#FFFFFF;border-bottom-color:#FFFFFF;}
+
+/*表名信息*/
+.biaoming{font-size:14px;font-weight:bold;text-align:center}
+
+/*文本段落类*/
+.txtbreak{text-align:justify;text-justify:inter-ideograph;	margin-top:6;	margin-bottom:6;	font-size:16pt;	font-family:"仿宋_GB2312";text-indent:40; line-height:200%}
+
+/*去边框颜色*/
+.bordersrc{border:1px solid #000000;border-right-color:#FFFFFF;border-left-color:#FFFFFF;border-top-color:#FFFFFF;border-bottom-color:#FFFFFF;}
+
+/*表格内一列的边框颜色<td> --右边和下边有边框*/
+.rightandtomborder{border-right: #000000 1px solid;border-bottom: #000000 1px solid;}
+
+/*表格内一列的边框颜色<td> --左边和下边有边框*/
+.leftandtomborder{border-left: #000000 1px solid;border-bottom: #000000 1px solid;}
+
+/*表格内一列的边框颜色<td> --右边有边框*/
+.rightborder{border-right: #000000 1px solid;}
+
+/*去左边和右边边框颜色*/
+.leftandright{border:2px solid #000000;border-right-color:#FFFFFF;border-left-color:#FFFFFF;}
+
+.leftandright2{border:1px solid #000000;border-left-color:#FFFFFF;border-right-color:#FFFFFF;}
+
+.bordersrc2{border:1px solid #000000;border-left-color:#000000;border-right-color:#000000;border-top-color:#000000;border-bottom-color:#000000;}
+

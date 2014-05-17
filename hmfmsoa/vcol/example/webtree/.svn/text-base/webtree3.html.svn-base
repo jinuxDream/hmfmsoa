@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html  >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+<title>webtree</title>
+
+<link rel="stylesheet" type="text/css" href="../../style/web-ui.css" />
+<link rel="stylesheet" type="text/css" href="../../style/your-custom.css" />
+<link rel="stylesheet" type="text/css" href="../../style/skin-tree-01.css" />
+<script type="text/javascript" src="../../js/jquery-1.7.js"></script>
+<script type="text/javascript" src="../../js/web-ui.js"></script>
+<script type="text/javascript">
+
+function selNode(node){
+	//alert("node="+node.html());
+	
+}
+
+$(document).ready(function(){	
+ 	var tree1=$('#mytree1');
+ 	var tree2=$('#mytree2');
+ 
+	tree1.webTree({collapsed:true,expandOne:true,enableIcon:true,enable_selbtn:false,enable_hitbtn:false,
+		icons:{open:'branch-o2',closed:'branch-c2'},onSelect:selNode,onExpand:selNode,onCollapse:selNode});// 
+	tree2.webTree({collapsed:true,expandOne:true,enableIcon:true,enable_selbtn:false,enable_hitbtn:false,
+		icons:{type:'1'},onSelect:selNode,onExpand:selNode,onCollapse:selNode});// 
+	tree1.loadNode({url:"./treedata/menu_data_full2.json", isfull:true}); 
+	tree2.loadNode({url:"./treedata/menu_data_full2.json", isfull:true}); 
+
+	 
+});		
+	
+</script>
+ </head>
+ 
+ <div class="headline"  ><div class="headarrow"> &nbsp; &nbsp; &nbsp;</div>
+树结构视图</div>
+<div class="code">
+	
+</div>
+ 
+叶子节点可以在第一级，也可以在第二级，见示例如下：
+<form  name ="form1">
+	<table border="0" width="80%" height="800">
+    <tr>
+    <td  width="40%">节点图标为:展开/关闭2种</td>
+    <td  width="60%">节点图标按照层级设置多种</td> </tr>
+		<tr>
+			<td valign="top" >	
+	<div> 
+				<ul id="mytree1"  >	 </ul> 
+	</div>
+			</td>
+			<td valign="top"   ><div>
+ 				<ul id="mytree2"  >	 </ul> 
+		    </div></td>
+			 
+		</tr>
+	</table>
+
+	 
+	
+	
+	</form>
+
+
+</body>
+</html>
+	
+	

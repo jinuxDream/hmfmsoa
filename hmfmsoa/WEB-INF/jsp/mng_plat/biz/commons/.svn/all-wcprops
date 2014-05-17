@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons
+END
+getCspSectMng.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons/getCspSectMng.jsp
+END
+getOwnerInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons/getOwnerInfo.jsp
+END
+getOwnerList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons/getOwnerList.jsp
+END
+getCspMngOffInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons/getCspMngOffInfo.jsp
+END
+getCspMngOffList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons/getCspMngOffList.jsp
+END
+getCspInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons/getCspInfo.jsp
+END
+getCspList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons/getCspList.jsp
+END
+getCspSectMngInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/commons/getCspSectMngInfo.jsp
+END

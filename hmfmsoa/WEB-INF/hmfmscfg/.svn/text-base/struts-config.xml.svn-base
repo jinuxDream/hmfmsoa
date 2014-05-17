@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	
+   <form-beans>
+
+   </form-beans>
+
+    <global-exceptions>
+        <exception
+            key="error.message"
+            type="fd.exception.BusinessException"
+            path="/jsp/commons/exception.jsp"/>
+		<exception
+            key="error.message"
+            type="java.lang.IllegalArgumentException"
+            path="/jsp/commons/exception.jsp"/>
+		<exception
+            key="error.message"
+            type="java.lang.IllegalStateException"
+            path="/jsp/commons/exception.jsp"/>
+		
+    </global-exceptions>
+  <global-forwards>
+    <forward   name="error"                 path="/jsp/commons/error.jsp"/>
+    <forward   name="timeout"                 path="/jsp/commons/timeout.jsp"/>
+    <forward   name="exception"             path="/jsp/commons/exception.jsp"/>
+	<forward   name="invalidateSession"     path="/jsp/commons/nosession.jsp"/>
+ 	
+  </global-forwards>
+
+  <action-mappings>
+  </action-mappings>
+  
+<message-resources   parameter="application"/>
+
+   
+</struts-config>

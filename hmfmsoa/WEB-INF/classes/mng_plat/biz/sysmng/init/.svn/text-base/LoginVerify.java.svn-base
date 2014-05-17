@@ -1,0 +1,143 @@
+package mng_plat.biz.sysmng.init;
+
+import java.util.Map;
+
+import fd.commons.jdbc.Result;
+import fd.commons.jdbc.ResultRow;
+import fd.exception.BusinessException;
+import hmfms.base.BaseAction;
+import hmfms.util.Debug;
+import hmfms.util.ObjectUtil;
+import hmfms.web.User;
+import hmfms.web.UserAgent;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import mng_plat.service.cfg.CfgSysPara;
+import mng_plat.service.cfgflow.CfgFlowEngine;
+import hmfms.services.codes.OperStatus;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.struts.action.Action;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+import org.apache.struts.action.ActionMessage;
+import org.apache.struts.action.ActionMessages;
+
+/**
+ * 
+ * <p>标    题: 房维维修资金管理系统</p>
+ * <p>描    述:</p> 
+ * <p>版    权: Copyright (c) 2010  </p>
+ * <p>公    司: 上海泓智信息科技有限公司</p>
+ * <p>创建时间: 2010-6-13 上午03:59:05</p>
+ * <p>@author 徐超</p>
+ * <p>@version 1.0</p>
+ * <p></p>
+ * <p>LoginVerify</p>
+ */
+public class LoginVerify extends Action {
+
+	private static final Log logger = LogFactory.getLog(LoginVerify.class);
+
+	public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+		response.setHeader("Cache-Control", "no-cache");
+		response.setHeader("Cache-Control", "no-store");
+		response.setDateHeader("Expires", 0); // Causes the proxy cache to see
+		response.setHeader("Pragma", "no-cache"); // HTTP 1.0 backward
+		String strName = request.getParameter("userName");
+		String strPass = request.getParameter("userPass");
+		String uri = request.getServletPath();
+		String action = uri.substring(uri.lastIndexOf('/') + 1, uri.lastIndexOf('.'));
+
+		Debug.debug(logger, "###action=[" + action + "]");
+
+		if( "login".equals(action) ) {
+			String msg = loginInit(strName, strPass, request);
+			if( !(null == msg) ) {
+				ActionMessages mes = new ActionMessages();
+				mes.add(ActionMessages.GLOBAL_MESSAGE, new ActionMessage("message.redo", msg));
+				this.saveErrors(request, mes);
+				return mapping.getInputForward();
+			}
+			return mapping.findForward("init");
+		}
+		else {
+			ActionMessages ams = new ActionMessages();
+			ams.add(ActionMessages.GLOBAL_MESSAGE, new ActionMessage("message.redo", "无效的访问链接!"));
+			this.saveErrors(request, ams);
+			return mapping.getInputForward();
+		}
+	}
+
+	/**
+	 * 操作员请求登陆, 1.系统查询操作员信息, 2.验证epass 3.系统初始化session
+	 * @param strName 用户名称
+	 * @param strPass 用户密码
+	 * @param request
+	 * @return string 返回处理的错误信息，null表示登陆验证成功
+	 */
+	public String loginInit(String strName, String strPass, HttpServletRequest request) {
+
+		String err_msg = null;
+		try {
+
+			User user = new User();
+			user.setTellID(strName);
+			user.setSysCode(CfgSysPara.getParaValueByName("SYS_CODE"));
+
+			LoginMng login = new LoginMng();
+
+			HttpSession session = request.getSession(false);
+			Result rs=new Result();
+			//只校验密码
+			if(strName.length()>=9){
+				rs = login.getOperationInfoByCspOnly(strName, strPass, true);
+			}
+			else{
+				rs = login.getOperationInfo(strName, strPass);
+			}
+			
+			//初始化登陆用户信息
+			user.setUserSessionID(session.getId());
+			user.setTellName(rs.getString(0, "TE_NAME").trim());
+			user.setDeptCode(rs.getString(0, "org_id").trim());
+			user.setDeptType(rs.getString(0, "TE_DEPT_TYPE").trim());
+			user.setDeptName(rs.getString(0, "dept_name").trim());
+			user.setTellID(rs.getString(0, "te_operid").trim());
+			user.setOper_tty(request.getRemoteAddr());
+			
+			//重新检查操作员的状态信息。
+			err_msg = login.updateOperStatus(rs.getString(0, "te_operid"), OperStatus.ZhengZaiShiYong, session.getId());
+			if( !ObjectUtil.isEmpty(err_msg) ) {
+				return err_msg;
+			}
+			user.setUser_agent(new UserAgent(request.getHeader("user-agent")));
+
+			/*获取当前登录用户的流程信息***开始*/
+			Map<String, ResultRow>  mapTranDefineGroup = CfgFlowEngine.getMapTranDefineGroup(user.getTellID());
+			Map<String, Result>  userFlowGroup = CfgFlowEngine.getUserFlowGroup(user.getTellID());
+			
+			user.setMapTranDefineGroup(mapTranDefineGroup);
+			user.setUserFlowGroup(userFlowGroup);
+			/*获取当前登录用户的流程信息***end*/
+			session.setMaxInactiveInterval(280000); // 8小时
+			session.setAttribute(BaseAction.USER_SESSION, user);
+
+		}
+		catch(BusinessException e) {
+			Debug.exception(logger, e);
+			return e.getMessage();
+		}
+		catch(Exception e) {
+			Debug.exception(logger, e);
+			return e.getMessage();
+		}
+		return null;
+	}
+}

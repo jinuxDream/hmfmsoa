@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/cspsectmanagerinfoquery
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/cspsectmanagerinfoquery/index.jsp
+END
+getQueryCspManModiHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/cspsectmanagerinfoquery/getQueryCspManModiHistory.jsp
+END
+getQueryCspManList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/cspsectmanagerinfoquery/getQueryCspManList.jsp
+END

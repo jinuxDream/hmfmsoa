@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html  >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+<title>validator</title>
+<link rel="stylesheet" type="text/css" href="../style/web-ui.css" />
+<link rel="stylesheet" type="text/css" href="../style/your-custom.css" />
+
+<script type="text/javascript" src="../js/jquery-1.7.js"></script>
+<script type="text/javascript" src="../js/web-ui.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){	
+	$('.btn').PicButton();//无需设置选项
+		
+});		
+
+
+</script>
+
+</head>
+
+<body  >
+	<div class="headline"  ><div class="headarrow"> &nbsp; &nbsp; &nbsp;</div>提交成功页面</div>
+<br/>
+<form action="" method="post" name="form1" id="form1">
+跳转测试页面
+OK！
+</form>
+<button align="center" class="btn"  type="button" value="1"  onclick="javascript:history.back();return false;" >返回</button>
+</body>
+</html>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/cspquery
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/cspquery/index.jsp
+END
+getHistoryList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/cspquery/getHistoryList.jsp
+END
+getDetailList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/jsp/mng_plat/biz/query/cspquery/getDetailList.jsp
+END

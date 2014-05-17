@@ -1,0 +1,6 @@
+#--
+icyril.error=<p><li><font color='red'>{0}</font></li></p>
+
+# -- direct output message --
+message={0}
+

@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/hmfmstest/svn/hmfmsoa/!svn/ver/19/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity
+END
+Trade.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Trade.java
+END
+Workgroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Workgroup.java
+END
+Keytable.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Keytable.java
+END
+Oper_demand_track.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/hmfmstest/svn/hmfmsoa/!svn/ver/19/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_demand_track.java
+END
+Org_info.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Org_info.java
+END
+Group_role_tellers.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Group_role_tellers.java
+END
+Oper_tran_role.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_tran_role.java
+END
+Attachments.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Attachments.java
+END
+Demand_track.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/hmfmstest/svn/hmfmsoa/!svn/ver/19/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Demand_track.java
+END
+Menu_info.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Menu_info.java
+END
+Sys_para.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Sys_para.java
+END
+Oper_workgroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_workgroup.java
+END
+System_name.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/hmfmstest/svn/hmfmsoa/!svn/ver/19/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/System_name.java
+END
+Oper_flow_scope.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_flow_scope.java
+END
+Role_menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Role_menu.java
+END
+Tran_flow.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Tran_flow.java
+END
+Flow_scope.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Flow_scope.java
+END
+Oper_attachments.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_attachments.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Role.java
+END
+Tran_log.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Tran_log.java
+END
+Oper_log.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_log.java
+END
+Oper_workgroup_menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_workgroup_menu.java
+END
+Trade_redo_log.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Trade_redo_log.java
+END
+Oper_system_name.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/hmfmstest/svn/hmfmsoa/!svn/ver/19/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_system_name.java
+END
+Tellers.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Tellers.java
+END
+Oper_role_menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_role_menu.java
+END
+Oper_tran_flow.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_tran_flow.java
+END
+Workgroup_menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Workgroup_menu.java
+END
+Tran_role.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Tran_role.java
+END
+Code_info.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Code_info.java
+END
+Oper_org_info.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_org_info.java
+END
+Oper_group_role_tellers.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/hmfmstest/svn/hmfmsoa/!svn/ver/10/trunk/04code/hmfmsoa/WEB-INF/src/hmfms/services/entity/Oper_group_role_tellers.java
+END

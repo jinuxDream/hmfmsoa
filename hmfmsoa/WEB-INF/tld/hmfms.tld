@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+  "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>1.2</jsp-version>
+  <short-name>hf</short-name>
+  <uri>hmfms</uri>
+  <display-name>HMFMS</display-name>
+  <description>HMFMS 1.0 core library</description>
+
+  <validator>
+    <validator-class>
+	org.apache.taglibs.standard.tlv.JstlCoreTLV
+    </validator-class>
+    <init-param>
+	<param-name>expressionAttributes</param-name>
+	<param-value>
+	    table:dataset
+		table:sumcolumns
+		tr:cssRowHeight
+		td:property
+		td:hidden
+		td:width
+		td:title
+	</param-value>
+	<description>
+	    Whitespace-separated list of colon-separated token pairs
+	    describing tag:attribute combinations that accept expressions.
+	    The validator uses this information to determine which
+	    attributes need their syntax validated.
+	</description>
+     </init-param>
+  </validator>
+
+  <tag>
+    <name>table</name>
+    <tag-class>hmfms.tag.TableTag</tag-class>
+    <body-content>JSP</body-content>
+	<display-name>TableTag</display-name>
+	<attribute>
+		<name>dataset</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[List or Result.]]></description>
+	</attribute>
+	<attribute>
+		<name>sumcolumns</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description><![CDATA[both/head/tail:column1,column2,column3, ... ...]]></description>
+	</attribute>
+	<attribute>
+		<name>tableHeadStyle</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description><![CDATA[define table head each td class. default td.tableHeadTitle]]></description>
+	</attribute>
+	<attribute>
+		<name>tableTitle</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description><![CDATA[]]></description>
+	</attribute>
+	<attribute>
+		<name>border</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description><![CDATA[HTML table border. default 0.]]></description>
+	</attribute>
+	<attribute>
+		<name>cellpadding</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description><![CDATA[HTML table cellpadding. default 0.]]></description>
+	</attribute>
+	<attribute>
+		<name>cellspacing</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description><![CDATA[HTML table cellspacing. default 1.]]></description>
+	</attribute>
+	<attribute>
+		<name>height</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description><![CDATA[default 382px by line-height=24px]]></description>
+	</attribute>
+	<attribute>
+		<name>linecolor</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description><![CDATA[HTML table bgcolor. default #9BB3D3.]]></description>
+	</attribute>
+	<attribute>
+		<name>styleClass</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[css class.]]></description>
+	</attribute>
+  </tag>
+
+  <tag>
+    <name>sum</name>
+    <tag-class>hmfms.tag.SumTag</tag-class>
+    <body-content>JSP</body-content>
+	<display-name>SumTag</display-name>
+	<attribute>
+		<name>location</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[both/head/tail]]></description>
+	</attribute>
+  </tag>
+
+  <tag>
+    <name>sumcolumn</name>
+    <tag-class>hmfms.tag.SumColumnTag</tag-class>
+    <body-content>JSP</body-content>
+	<display-name>SumColumnTag</display-name>
+	<attribute>
+		<name>property</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[]]></description>
+	</attribute>
+	<attribute>
+		<name>title</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[如果没有设置，则使用相应的TD里定义的title]]></description>
+	</attribute>
+	<attribute>
+		<name>numberFormat</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[]]></description>
+	</attribute>
+	<attribute>
+		<name>prefix</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[]]></description>
+	</attribute>
+	<attribute>
+		<name>suffix</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[]]></description>
+	</attribute>
+  </tag>
+		  	
+  <tag>
+    <name>tr</name>
+    <tag-class>hmfms.tag.TrTag</tag-class>
+    <body-content>JSP</body-content>
+	<display-name>TrTag</display-name>
+	<attribute>
+		<name>id</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[一般可以设置为clos]]></description>
+	</attribute>
+	<attribute>
+		<name>cssRowHeight</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[default 24. equal css contentblue line-height]]></description>
+	</attribute>
+	<attribute>
+		<name>onmouseover</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[css class.]]></description>
+	</attribute>
+	<attribute>
+		<name>onmouseout</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[css class.]]></description>
+	</attribute>
+	<attribute>
+		<name>onclick</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[css class.]]></description>
+	</attribute>
+	<attribute>
+		<name>style</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[html style.]]></description>
+	</attribute>
+	<attribute>
+		<name>styleClass</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[css class.]]></description>
+	</attribute>
+  </tag>
+
+  <tag>
+    <name>rowhidden</name>
+    <tag-class>hmfms.tag.RowHiddenTag</tag-class>
+    <body-content>JSP</body-content>
+	<display-name>RowHiddenTag</display-name>
+	<attribute>
+		<name>property</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description>
+			<![CDATA[The bean attribute to use for the column.]]>
+		</description>
+	</attribute>
+	<attribute>
+		<name>name</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description>
+			<![CDATA[default value is property name suffix "_arr".]]>
+		</description>
+	</attribute>
+  </tag>
+  <tag>
+    <name>td</name>
+    <tag-class>hmfms.tag.TdTag</tag-class>
+    <body-content>JSP</body-content>
+	<display-name>TdTag</display-name>
+	<attribute>
+		<name>property</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description>
+			<![CDATA[对应结果集合的一个字段名。]]>
+		</description>
+	</attribute>
+	<attribute>
+		<name>dataType</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[未设置值，则数据直接在td内显示。<br>
+			可用类型为：text, select, radio, checkbox。<br>
+			这时数据将被显示在value中或option中。<br>
+			注意：1）不能写value=；2）bodyShow属性将失效]]></description>
+	</attribute>
+	<attribute>
+		<name>link</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[用超链接形式显示，例如：/jsp/a0101/del.do?id={hpb_fund}&name={hpb_name} onclick='go();return false;']]></description>
+	</attribute>
+	<attribute>
+		<name>codeItem</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[对应的codes，该列将显示为相映的代码值]]></description>
+	</attribute>
+	<attribute>
+		<name>dateFormat</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[日期显示的格式，例如：yyyy-MM-dd]]></description>
+	</attribute>
+	<attribute>
+		<name>numberFormat</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[数据显示的格式，例如：#.00]]></description>
+	</attribute>
+	<attribute>
+		<name>bodyShow</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue>
+		<description>
+			<![CDATA[prefix/suffix. 不设置则默认为suffix.<br>
+				prefix: 该td标签body的内容在字段前面显示，suffix反之。]]>
+		</description>
+	</attribute>
+	<attribute>
+		<name>width</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[列宽度.]]></description>
+	</attribute>
+	<attribute>
+		<name>title</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[html title.]]></description>
+	</attribute>
+	<attribute>
+		<name>titleClick</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[title上出发的JS函数名字.]]></description>
+	</attribute>
+	<attribute>
+		<name>titleDataType</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[title显示input.]]></description>
+	</attribute>
+	<attribute>
+		<name>styleClass</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[css class.]]></description>
+	</attribute>
+	<attribute>
+		<name>align</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[css class.]]></description>
+	</attribute>
+	<attribute>
+		<name>valign</name>
+		<required>false</required>
+		<rtexprvalue>true</rtexprvalue><!--maybe set false?????-->
+		<description><![CDATA[css class.]]></description>
+	</attribute>
+  </tag>
+		
+  <tag>
+    <name>test</name>
+    <tag-class>hmfms.tag.TestTag</tag-class>
+    <body-content>JSP</body-content><!--empty-->
+    <description>
+        Catches any Throwable that occurs in its body and optionally
+        exposes it.
+    </description>
+    <attribute>
+        <name>value</name>
+        <required>true</required>
+        <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+
+</taglib>
