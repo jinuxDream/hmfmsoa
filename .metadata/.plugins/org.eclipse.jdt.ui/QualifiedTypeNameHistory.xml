@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="hmfms.base.BaseAction"/>
+<fullyQualifiedTypeName name="hmfms.base.BaseDeal"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.PageContext"/>
+<fullyQualifiedTypeName name="fd.commons.jdbc.Result"/>
+<fullyQualifiedTypeName name="hmfms.web.commons.PageCounter"/>
+<fullyQualifiedTypeName name="hmfms.web.User"/>
+<fullyQualifiedTypeName name="hmfms.util.RequestUtil"/>
+<fullyQualifiedTypeName name="hmfms.services.entity.Demand_track"/>
+<fullyQualifiedTypeName name="hmfms.services.key.PrimayKeyGener"/>
+<fullyQualifiedTypeName name="hmfms.action.systemname.SystemnameManager"/>
+<fullyQualifiedTypeName name="hmfms.web.SystemName"/>
+<fullyQualifiedTypeName name="fd.commons.web.ActionResult"/>
+<fullyQualifiedTypeName name="hmfms.web.system_name"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+</qualifiedTypeNameHistroy>

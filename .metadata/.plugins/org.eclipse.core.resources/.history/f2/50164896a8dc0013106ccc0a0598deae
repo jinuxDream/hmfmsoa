@@ -1,0 +1,13 @@
+package hmfms.action.systemname;
+
+import hmfms.base.BaseDeal;
+/**
+ * 系统管理manager
+ * @author hongzhi
+ *
+ */
+public class SystemnameManager extends BaseDeal {
+
+	
+	
+}

@@ -1,0 +1,17 @@
+1400142299272	Delete element
+1400142302892	Delete element
+1400148320171	Rename package 'hmfms.action.systemname'
+1400148368161	Rename type 'Systemname'
+1400148381151	Copy compilation unit
+1400148388171	Rename type 'CopyOfSystemnameManager'
+1400149321562	Copy file
+1400149357102	Rename resource 'index.jsp'
+1400149385762	Copy file
+1400149396682	Rename resource 'addCheck.jsp'
+1400149408142	Copy file
+1400149472172	Rename resource 'editCheck.jsp'
+1400205237244	Rename resource 'systemAll.jsp'
+1400205568965	Move compilation units
+1400205672827	Rename package 'hmfms.action.SystemName'
+1400205806161	Move files
+1400231811838	Rename compilation unit 'SystemName.java'

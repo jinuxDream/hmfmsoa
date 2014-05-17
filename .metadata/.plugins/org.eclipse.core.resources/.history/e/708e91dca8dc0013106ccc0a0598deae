@@ -1,0 +1,24 @@
+package hmfms.action.systemname;
+
+import javax.servlet.jsp.PageContext;
+
+import fd.commons.jdbc.Result;
+import fd.commons.jdbc.SQLExecutor;
+import hmfms.base.BaseDeal;
+import hmfms.web.SystemName;
+/**
+ * 系统管理manager
+ * @author hongzhi
+ *
+ */
+public class SystemnameManager extends BaseDeal {
+	
+	public Result index(SystemName systemName,PageContext page){
+		SQLExecutor db = null;
+		
+		db=new SQLExecutor();
+		
+	}
+	
+	
+}

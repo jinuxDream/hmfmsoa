@@ -1,0 +1,58 @@
+package hmfms.action.systemname;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import UserDemandTrack.UserTrackManager;
+
+import fd.commons.jdbc.Result;
+import fd.commons.web.ActionResult;
+import hmfms.base.BaseAction;
+import hmfms.util.RequestUtil;
+import hmfms.web.SystemName;
+import hmfms.web.User;
+import hmfms.web.commons.PageCounter;
+/**
+ * 系统的action系统的增删改查
+ * @author hongzhi
+ *
+ */
+public class SystemnameAction extends BaseAction {
+
+	/**
+	 * 所有的系统
+	 * @param request
+	 * @param response
+	 */
+	public void  index(HttpServletRequest request,HttpServletResponse response){
+		User user = getUser(request);
+		SystemnameManager manager = new SystemnameManager();
+		PageCounter page = new PageCounter(request);
+		Result rs = manager.index(user,page);
+		request.setAttribute("rs", rs);
+		
+	} 
+	public void  add(HttpServletRequest request,HttpServletResponse response){
+	} 
+	public ActionResult  save(HttpServletRequest request,HttpServletResponse response){
+		User user = getUser(request); 
+		SystemName systemName=new SystemName();
+		SystemnameManager manager=new SystemnameManager();
+		RequestUtil.copyProperties(request, manager);
+		manager.add(user, systemName);
+		
+		
+	} 
+	public void  delete(HttpServletRequest request,HttpServletResponse response){
+		
+	} 
+	public void  input(HttpServletRequest request,HttpServletResponse response){
+		
+	} 
+	public void  update(HttpServletRequest request,HttpServletResponse response){
+		
+	} 
+	
+	
+	
+}

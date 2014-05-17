@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+  <global-exceptions>
+  </global-exceptions>
+  <global-forwards>
+  </global-forwards>
+  <action-mappings>
+	<!--系统登陆-初始登陆（无登陆验证）-->
+		<action path="/jsp/login" type="mng_plat.biz.sysmng.init.LoginVerify" input="/jsp/login.jsp" scope="request">
+			<forward name="init" path="/WEB-INF/jsp/mng_plat/biz/sysmng/init/init.jsp" />
+		</action>
+	<!--解锁页面初始化（无登陆验证）-->
+		<action path="/jsp/to_unLock" type="hmfms.biz.sysmng.init.LoginVerify" input="/jsp/login.jsp" scope="request">
+		 <forward name="success" path="/WEB-INF/jsp/hmfms/biz/sysmng/init/unLock.jsp" />
+		 </action>
+		<action path="/jsp/unLock"	type="hmfms.biz.sysmng.init.LoginVerify" input="/WEB-INF/jsp/hmfms/biz/sysmng/init/unLock.jsp" scope="request">
+			<forward name="success" path="/WEB-INF/jsp/hmfms/biz/sysmng/init/unLockOK.jsp" />
+		 </action>
+	<!--系统登陆（验证通过后）-->
+		<action path="/mng_plat/biz/sysmng/init/*" type="mng_plat.biz.sysmng.init.LoginAction"/>
+
+	<!--流程管理  start-->
+		<action path="/mng_plat/biz/sysmng/flowmng/*" type="mng_plat.biz.sysmng.flowmng.FlowMngAction"/>
+	<!--理财管理  end-->
+	
+	<!--操作员管理  start-->
+		<action path="/mng_plat/biz/sysmng/mngoper/*" type="mng_plat.biz.sysmng.mngoper.MngOperAction"/>
+	<!--操作员管理  end-->
+	
+	<!--菜单管理  start-->
+		<action path="/mng_plat/biz/sysmng/mngmenu/*" type="mng_plat.biz.sysmng.mngmenu.MngMenuAction"/>
+	<!--菜单管理  end-->
+	
+	<!--角色管理  start-->
+		<action path="/mng_plat/biz/sysmng/mngrole/*" type="mng_plat.biz.sysmng.mngrole.MngRoleAction"/>
+	<!--角色管理  end-->
+	
+	<!--组管理  start-->
+		<action path="/mng_plat/biz/sysmng/mnggroup/*" type="mng_plat.biz.sysmng.mnggroup.MngGroupAction"/>
+	<!--组管理  end-->
+	
+    <!--需求跟踪  start-->
+		<action path="/UserDemandTrack/*" type="UserDemandTrack.UserTrackAction"/>
+	<!--组管理  end-->
+	
+	<!--用户系统添加-->
+		<action path="/hmfms/action/systemname/*" type="hmfms.action.systemname.SystemNameAction"/>
+    
+  </action-mappings>
+</struts-config>

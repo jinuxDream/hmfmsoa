@@ -1,0 +1,48 @@
+package hmfms.web;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import fd.commons.TableEntity;
+
+/**
+ * 系统名字 管理 
+ * 20140516
+ * @author hongzhi
+ *
+ */
+public class SystemName  extends TableEntity{
+	
+	public String systemId;
+	public String systemName;
+	private Set primaryKeys = new HashSet();
+	
+	public SystemName() {
+		super();
+	}
+	public SystemName(String systemId, String systemName) {
+		super();
+		this.systemId = systemId;
+		this.systemName = systemName;
+	}
+	public String getSystemId() {
+		return systemId;
+	}
+	public void setSystemId(String systemId) {
+		this.systemId = systemId;
+	}
+	public String getSystemName() {
+		return systemName;
+	}
+	public void setSystemName(String systemName) {
+		this.systemName = systemName;
+	}
+	@Override
+	public boolean isPrimaryKey(String name) {
+		// TODO Auto-generated method stub
+		return primaryKeys.contains(name);
+	}
+	
+	
+
+}

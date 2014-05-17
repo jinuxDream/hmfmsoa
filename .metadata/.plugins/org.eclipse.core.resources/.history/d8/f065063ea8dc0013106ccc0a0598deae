@@ -1,0 +1,31 @@
+package hmfms.web;
+
+public class SystemName {
+	
+	public String systemId;
+	public String systemName;
+	
+	public SystemName() {
+		super();
+	}
+	public SystemName(String systemId, String systemName) {
+		super();
+		this.systemId = systemId;
+		this.systemName = systemName;
+	}
+	public String getSystemId() {
+		return systemId;
+	}
+	public void setSystemId(String systemId) {
+		this.systemId = systemId;
+	}
+	public String getSystemName() {
+		return systemName;
+	}
+	public void setSystemName(String systemName) {
+		this.systemName = systemName;
+	}
+	
+	
+
+}

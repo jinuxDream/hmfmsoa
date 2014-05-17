@@ -1,0 +1,8 @@
+#Fri May 16 10:34:36 GMT 2014
+tomcatDir=G\:\\hongzhi\\tomcat
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+contextsDir=G\:\\hongzhi\\tomcat\\webapps
+tomcatVersion=tomcatV41
+computeSourcePath=true
+tomcatConfigFile=G\:\\hongzhi\\tomcat\\conf\\server.xml

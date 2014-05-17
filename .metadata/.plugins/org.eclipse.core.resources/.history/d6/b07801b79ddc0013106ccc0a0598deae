@@ -1,0 +1,9 @@
+package hmfms.action;
+
+import hmfms.base.BaseDeal;
+
+public class SystemnameManager extends BaseDeal {
+
+	
+	
+}

@@ -1,0 +1,7 @@
+package hmfms.action;
+
+import hmfms.base.BaseAction;
+
+public class SystemnameAction extends BaseAction {
+
+}

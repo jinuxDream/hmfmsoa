@@ -1,0 +1,23 @@
+package hmfms.web;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import fd.commons.TableEntity;
+
+/**
+ * 系统名字 管理 
+ * 20140516
+ * @author hongzhi
+ *
+ */
+public class system_name  extends TableEntity{
+	
+	public String sn_id;
+	public String sn_name;
+	private Set primaryKeys = new HashSet();
+	
+	
+	
+
+}

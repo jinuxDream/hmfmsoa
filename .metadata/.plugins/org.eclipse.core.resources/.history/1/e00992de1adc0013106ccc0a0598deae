@@ -1,0 +1,21 @@
+package hmfms.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import hmfms.base.BaseAction;
+/**
+ * 系统的action系统的增删改查
+ * @author hongzhi
+ *
+ */
+public class SystemnameAction extends BaseAction {
+
+	/**
+	 * 所有系统
+	 */
+	public void  index(HttpServletRequest request,HttpServletResponse response){
+		
+	} 
+	
+}

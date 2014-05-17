@@ -1,0 +1,12 @@
+package hmfms.action;
+
+import hmfms.base.BaseAction;
+/**
+ * 系统的action系统的增删改查
+ * @author hongzhi
+ *
+ */
+public class SystemnameAction extends BaseAction {
+
+	
+}

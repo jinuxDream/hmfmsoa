@@ -1,0 +1,44 @@
+package hmfms.action.systemname;
+
+import javax.servlet.jsp.PageContext;
+
+import fd.commons.jdbc.Result;
+import fd.commons.jdbc.SQLExecutor;
+import fd.commons.jdbc.SqlOperator;
+import hmfms.base.BaseDeal;
+import hmfms.web.SystemName;
+import hmfms.web.commons.PageCounter;
+
+/**
+ * 系统管理manager
+ * 
+ * @author hongzhi
+ * 
+ */
+public class SystemnameManager extends BaseDeal {
+
+	/**
+	 * 系统管理
+	 * @param systemName
+	 * @param page
+	 * @return
+	 */
+	public Result index(SystemName systemName, PageCounter page) {
+		SQLExecutor db = null;
+		try {
+			db = new SQLExecutor();
+			SqlOperator dbo = new SqlOperator();
+
+			Result rs = dbo.query(page, db);
+
+			return rs;
+		} catch (Exception e) {
+			// TODO: handle exception
+		} finally {
+			if (db != null) {
+				db.close();
+			}
+		}
+	}
+
+}
